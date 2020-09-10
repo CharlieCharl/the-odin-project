@@ -2,10 +2,21 @@
     box-sizing: border-box;
   }
 
+.main-logo {
+  margin: auto;
+  text-align: center;
+  display: block;
+}
+
 .wrapper {
     background-color: #ffffff;
     margin: auto;
     text-align: center;
     width: 33%;
     border: 0.1rem solid black;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
 }
