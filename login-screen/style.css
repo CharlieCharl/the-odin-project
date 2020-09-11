@@ -1,13 +1,13 @@
 * {
-    box-sizing: border-box;
-  }
+  box-sizing: border-box;
+}
 
 body {
-    background-color: #eceef1;
+  background-color: #eceef1;
 }
 
 .main-form {
-    background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .main-logo {
@@ -30,11 +30,11 @@ h2.title-header {
 }
 
 .wrapper {
-    background-color: #ffffff;
-    margin: auto;
-    text-align: center;
-    width: 25%;
-    border: 0.1rem solid black;
+  background-color: #ffffff;
+  margin: auto;
+  text-align: center;
+  width: 25%;
+  border: 0.1rem solid black;
 }
 
 ul li {
@@ -42,15 +42,19 @@ ul li {
   display: inline;
 }
 
-.wrapper .main-form p>label{
+.wrapper .main-form p>label {
   font-size: 0.9rem;
   text-align: center;
   display: block;
   margin: 0 0 0 0%;
   line-height: 0.4;
-  }
+}
 
-.wrapper .main-form p>input{
-  width: 70%;
-  }
+footer {
+  text-align: center;
+  margin: auto;
+  width: 50%;
+}
 
+.wrapper .main-form p>input {
+}
