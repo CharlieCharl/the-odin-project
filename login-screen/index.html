@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Intuit Accounts - Sign Up</title>
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -21,9 +22,9 @@
         </ul>
     </nav>
     <div class="wrapper">
-        <h1>Create an Intuit account</h1>
-        <h2>One account for everything Intuit, including Mint.</br>Learn more</h2>
-        <form action="/signup" method="post">
+        <h1 class="title-header">Create an Intuit account</h1>
+        <h2 class="title-header">One account for everything Intuit, including Mint.</br><a href="#">Learn more</a></h2>
+        <form action="/signup" method="post" class="main-form">
             <p>
                 <label>Email address</label></br>
                 <input type="email" name="email">
@@ -43,6 +44,10 @@
             </p>
             <p>
                 <button>Create Account</button>
+            </p>
+            <p>
+                By clicking Create account, you agree to our
+Terms and have read and acknowledge our Privacy Statement.
             </p>
         </form>
     </div>
