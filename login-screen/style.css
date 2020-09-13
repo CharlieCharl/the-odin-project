@@ -56,8 +56,7 @@ footer {
   width: 50%;
 }
 
-.wrapper .main-form p>input {
-}
+.wrapper .main-form p>input {}
 
 .sign-in-button {
   background: #0077C5;
@@ -72,7 +71,25 @@ footer {
   margin-right: 1.25rem;
 }
 
-.sign-in-section{
+.sign-in-section {
   display: flex;
   justify-content: flex-end;
+  font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #505050;
+}
+
+a {
+  text-decoration: none;
+  color: #0077C5;
+}
+
+a:after {
+  text-decoration-style: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
 }
