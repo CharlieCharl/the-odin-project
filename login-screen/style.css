@@ -22,8 +22,11 @@ input::placeholder{
 .captcha {
   background-color: #ECEEF1;
   text-align: center;
-  display: block;
-  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 60px;
   font-size: 0.625rem;
   font-family: "AvenirNext", Avenir, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -49,6 +52,7 @@ h2.title-header {
 .wrapper {
   background-color: #ffffff;
   margin: auto;
+  padding: 0;
   text-align: center;
   width: 400px;
   border: 1px solid #888c9156;
