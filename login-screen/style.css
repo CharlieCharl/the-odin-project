@@ -10,6 +10,16 @@ body {
   background-color: #ffffff;
 }
 
+.main-form > fieldset > input {
+  width: 18rem;
+  height: 2rem;
+}
+
+.captcha {
+  background-color: #ECEEF1;
+  text-align: center;
+  font-size: 0.625rem;
+}
 .main-logo {
   margin: auto;
   text-align: center;
@@ -33,7 +43,7 @@ h2.title-header {
   background-color: #ffffff;
   margin: auto;
   text-align: center;
-  width: 25%;
+  width: 30%;
   border: 1px solid grey;
   border-radius: 4px;
 }
@@ -56,8 +66,6 @@ footer {
   margin: auto;
   width: 50%;
 }
-
-.wrapper .main-form p>input {}
 
 .sign-in-button {
   background: #0077C5;
@@ -91,4 +99,20 @@ a {
 
 a:link, a::after, a:visited, a:hover {
   text-decoration: none;
+}
+
+fieldset {
+  border: none;
+}
+
+fieldset > label {
+display: flex;
+justify-content: left;
+margin-left: 1.3rem;
+margin-bottom: 1rem;
+margin-top: 1rem;
+}
+
+label {
+  clear: both;
 }
